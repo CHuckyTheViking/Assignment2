@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Assignment2.AbstractFactory.Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace Assignment2.AbstractFactory
 {
-    class Cat
+
+    class Cat : ICat, IAnimal
     {
         public Cat(string name)
         {
